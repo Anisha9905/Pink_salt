@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="font-heading text-2xl italic font-bold text-foreground mb-4">Pink Salt</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Italian Flavours · Sweet Memories · Cozy Vibes
+              Serving delicious moments in Mangalore🍽️
             </p>
           </div>
 
@@ -35,9 +35,9 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-lg font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>+91 98765 43210</li>
-              <li>hello@pinksaltcafe.com</li>
-              <li>Main Street, City Center</li>
+              <li>+91 86608 40890</li>
+              <li>Maximus Commercial Complex,
+Near City Center Shopping Mall, Lighthouse, Hampankatta</li>
             </ul>
           </div>
 

@@ -50,7 +50,8 @@ const LocationSection = () => {
               </div>
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Address</h3>
-                <p className="text-muted-foreground">Pink Salt Resto Cafe, Main Street,<br />City Center, India</p>
+                <p className="text-muted-foreground">Pink Salt Resto Cafe,Maximus Commercial Complex,
+Near City Center Shopping Mall,<br /> Lighthouse, Hampankatta, India</p>
               </div>
             </div>
 
@@ -61,8 +62,8 @@ const LocationSection = () => {
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Opening Hours</h3>
                 <p className="text-muted-foreground">
-                  Mon – Fri: 10:00 AM – 11:00 PM<br />
-                  Sat – Sun: 9:00 AM – 11:30 PM
+                  Mon – Fri: 11:30 AM – 11:00 PM<br />
+                  Sat – Sun: 11:30 AM – 11:30 PM
                 </p>
               </div>
             </div>
@@ -73,7 +74,7 @@ const LocationSection = () => {
               </div>
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Phone</h3>
-                <p className="text-muted-foreground">+91 98765 43210</p>
+                <p className="text-muted-foreground">+91 86608 40890</p>
               </div>
             </div>
 
