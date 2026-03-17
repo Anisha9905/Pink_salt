@@ -21,9 +21,10 @@ This project focuses on creating an attractive and user-friendly interface for c
 
 ## Tech Stack
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Styling:** Custom CSS
-* **Map Integration:** Google Maps API
+* **Frontend:** React, TypeScript, Vite
+* **Styling:** Tailwind CSS, Framer Motion
+* **Backend:** Supabase (Database + Authentication)
+* **UI Components:** Radix UI, Lucide Icons
 * **Deployment:** Vercel
 
 ---
@@ -31,21 +32,52 @@ This project focuses on creating an attractive and user-friendly interface for c
 ## Project Structure
 
 ```
-Pink-Salt-Resto-Cafe/
+pinksalt-cafe-charm-main/
 │
-├── index.html        # Landing page
-├── menu.html         # Menu categories and dishes
-├── style.css         # Styling and theme
-├── script.js         # Interactive elements
-├── images/           # Cafe and food images
-└── README.md         # Project documentation
+├── src/
+│   ├── components/          # React components
+│   │   ├── ui/             # Reusable UI components
+│   │   ├── admin/          # Admin panel components
+│   │   └── ...             # Page components
+│   ├── pages/              # Page components
+│   ├── integrations/       # External service integrations
+│   │   └── supabase/       # Supabase client and types
+│   └── lib/                # Utility functions
+├── supabase/
+│   └── migrations/         # Database migrations
+├── public/                 # Static assets
+└── package.json            # Dependencies and scripts
 ```
 
 ---
 
-## Installation & Setup
+## Admin Setup
 
-1. Clone the repository
+The admin panel now uses email and password authentication via Supabase.
+
+### Setting up Admin Access
+
+1. **Create Admin Account:**
+   - Visit `http://localhost:8082/admin` (or your deployed URL + `/admin`)
+   - Click "Need to create an account? Register"
+   - Enter your email and password
+   - Check your email for confirmation
+
+2. **Database Security:**
+   - The admin operations (creating/editing menu items, offers, etc.) now require authentication
+   - Public users can still view menu items and place orders
+   - Only authenticated users can modify data
+
+3. **Applying Database Changes:**
+   - If using Supabase CLI: `npx supabase db push`
+   - Or manually apply the SQL in `supabase/migrations/20260317100000_setup_admin_auth.sql` to your Supabase dashboard
+
+### Admin Features
+
+- **Orders Management:** View and update order status
+- **Menu Management:** Add, edit, and remove menu items
+- **Offers Management:** Create and manage special offers
+- **Secure Authentication:** Email/password login with Supabase
 
 ```
 git clone https://github.com/Anisha9905/pink-salt-resto-cafe.git

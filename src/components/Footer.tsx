@@ -55,7 +55,7 @@ Near City Center Shopping Mall, Lighthouse, Hampankatta</li>
                 <Instagram className="w-4 h-4 text-foreground" />
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918660840890"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-foreground/10 flex items-center justify-center hover:bg-foreground/20 transition-colors"
@@ -69,8 +69,7 @@ Near City Center Shopping Mall, Lighthouse, Hampankatta</li>
 
         <div className="border-t border-foreground/10 pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-             Powered by{" "}
-            <span className="font-medium text-foreground">Devora Technologies</span>
+            © 2024 Pink Salt Resto Cafe. All rights reserved.
           </p>
         </div>
       </div>
